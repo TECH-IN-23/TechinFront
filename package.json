@@ -47,5 +47,15 @@
     "node": ">= 10.18.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
-  }
+  },
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TECH-IN-23/TechinFront.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TECH-IN-23/TechinFront/issues"
+  },
+  "homepage": "https://github.com/TECH-IN-23/TechinFront#readme"
 }
