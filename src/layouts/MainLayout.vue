@@ -55,6 +55,6 @@ export default {
 
 <style lang="scss">
 .q-layout {
-  background-color: #E5CA39;
+  background-color: #E7B814;
 }
 </style>
