@@ -18,12 +18,12 @@
         <q-route-tab to="/page3" label="PARCEIROS" />
       </q-tabs>
     </q-header>
-         
+
     <q-page-container>
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white" align="center">
+    <q-footer elevated class="bg-primary-8 text-white" align="center">
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
@@ -46,7 +46,7 @@
       <q-card-section class="q-pa-lg">
         <div class="text-h6">Bem vindo à TECH IN</div>
         <div class="text-subtitle2">Inscreva-se em nosso site e aproveite todas as funcionalidades que nosso sistema tem a oferecer, tais como: produtos e serviços especializados para auxiliar em todo tipo de disfunção motora</div>
-      
+
       </q-card-section>
 
     </q-card>
@@ -66,13 +66,13 @@
         <a href="">crie uma conta</a>
       </p>
     </div>
-    
+
   </q-layout>
 </template>
 
 <script>
 export default {
-  name: "login";
+  name: 'login',
   data () {
     return {
     }
@@ -91,10 +91,10 @@ export default {
 }
 
 .q-card-section {
-  font-family: Roboto; 
-  font-style: normal; 
-  font-weight: 500; 
-  font-size: 70px; 
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
   line-height: 82px;
 }
 </style>

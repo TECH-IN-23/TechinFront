@@ -23,7 +23,7 @@
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white" align="center">
+    <q-footer elevated class="bg-primary-8 text-white" align="center">
       <q-toolbar>
         <q-toolbar-title>
           <q-avatar>
@@ -57,4 +57,5 @@ export default {
 .q-layout {
   background-color: #E7B814;
 }
+
 </style>

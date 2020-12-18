@@ -8,7 +8,7 @@ const routes: RouteConfig[] = [
       { path: 'LOGIN', component: () => import('pages/LOGIN/LOGIN.vue') },
       { path: 'HOME', component: () => import('pages/HOME/HOME.vue') },
       { path: 'PRODUTOS', component: () => import('pages/PRODUTOS/PRODUTOS.vue') },
-      { path: 'PARCEIROS', component: () => import('pages/PARCEIROS/PARCEIROS.vue') },
+      { path: 'PARCEIROS', component: () => import('pages/PARCEIROS/PARCEIROS.vue') }
     ]
   },
 
