@@ -1,45 +1,32 @@
 <template>
   <q-layout view="hHh lpR fFf">
 
-    <q-header elevated class="bg-primary text-white" height-hint="98" align="left">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
-          </q-avatar>
-          TECH IN
-        </q-toolbar-title>
-        </q-toolbar>
-
-      <q-tabs align="right">
-        <q-route-tab to="/page1" label="LOGIN" />
-        <q-route-tab to="/page1" label="HOME" />
-        <q-route-tab to="/page2" label="PRODUTOS" />
-        <q-route-tab to="/page3" label="PARCEIROS" />
-      </q-tabs>
-    </q-header>
-
     <q-page-container>
       <router-view />
     </q-page-container>
 
-    <q-footer elevated class="bg-grey-8 text-white" align="center">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
-          </q-avatar>
-          TECH IN
-        </q-toolbar-title>
-      </q-toolbar>
+        <div class="conteudo">
+      <div class="q-pa-md">
+          <div class="q-col-gutter-md row items-start">
 
-      <q-tabs align="right">
-        <q-route-tab to="/page1" label="LOGIN" />
-        <q-route-tab to="/page1" label="HOME" />
-        <q-route-tab to="/page2" label="PRODUTOS" />
-        <q-route-tab to="/page3" label="PARCEIROS" />
-      </q-tabs>
-    </q-footer>
+            <div class="col-6">
+              <p class="text-h4 text-center">Titulos</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ex quaerat molestias ad, ratione consequatur incidunt dolor quod odit quas? Esse eum corrupti cupiditate modi est ullam consequatur, expedita optio.</p>
+            </div>
+
+            <div class="col-6">
+              <div class="q-video">
+                <iframe
+                src="https://www.youtube.com/embed/k3_tw44QsZQ?rel=0"
+                frameborder="0"
+                allowfullscreen
+                />
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
 
   </q-layout>
 </template>
